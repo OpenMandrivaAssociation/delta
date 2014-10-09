@@ -2,7 +2,7 @@
 
 Name: delta
 Version: 2006.08.03
-Release: 2
+Release: 3
 Source0: http://delta.tigris.org/files/documents/3103/33566/%{name}-%{version}.tar.gz
 Summary: Tool for heuristically minimizing interesting files
 URL: http://delta.tigris.org/
