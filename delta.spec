@@ -1,4 +1,4 @@
-%define debug_package %{nil}
+%define  _empty_manifest_terminate_build 0
 
 Name: delta
 Version: 2006.08.03
@@ -18,10 +18,10 @@ causes your program to exhibit a bug.
 This implementation is based on the Delta Debugging algorithm.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%make CC=%{__cc}
+%make_build
 
 %check
 %make check
