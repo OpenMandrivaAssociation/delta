@@ -9,6 +9,7 @@ URL: https://delta.tigris.org/
 License: BSD
 Group: Development/Tools
 
+BuildRequires:	make
 %description
 Delta assists you in minimizing "interesting" files subject to a test
 of their interestingness. A common such situation is when attempting
